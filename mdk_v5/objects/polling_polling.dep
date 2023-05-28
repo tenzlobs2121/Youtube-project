@@ -1,0 +1,319 @@
+Dependencies for Project 'polling', Target 'polling': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (..\src\at32f415_clock.c)(0x6390A941)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../../../libraries/drivers/inc -I ../../../../../../libraries/cmsis/cm4/core_support -I ../../../../../../libraries/cmsis/cm4/device_support -I ../inc -I ../../../../../at32f415_board-IC:/Users/Lenovo/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="537" -DAT32F415RCT7_7 -DAT32F415RCT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F415_V1-o ./objects/at32f415_clock.o -MD)
+I (..\inc\at32f415_clock.h)(0x6390A941)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528400)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x625283FE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x625283FE)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\system_at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_def.h)(0x6390A927)
+I (..\inc\at32f415_conf.h)(0x6390A941)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crm.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_cmp.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_tmr.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_ertc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_gpio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_i2c.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usart.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_pwc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_can.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_adc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_spi.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_dma.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_debug.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_flash.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wwdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_exint.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_sdio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_misc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usb.h)(0x6390A927)
+F (..\src\at32f415_int.c)(0x6390A941)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../../../libraries/drivers/inc -I ../../../../../../libraries/cmsis/cm4/core_support -I ../../../../../../libraries/cmsis/cm4/device_support -I ../inc -I ../../../../../at32f415_board-IC:/Users/Lenovo/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="537" -DAT32F415RCT7_7 -DAT32F415RCT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F415_V1-o ./objects/at32f415_int.o -MD)
+I (..\inc\at32f415_int.h)(0x6390A941)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528400)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x625283FE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x625283FE)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\system_at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_def.h)(0x6390A927)
+I (..\inc\at32f415_conf.h)(0x6390A941)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crm.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_cmp.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_tmr.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_ertc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_gpio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_i2c.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usart.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_pwc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_can.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_adc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_spi.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_dma.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_debug.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_flash.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wwdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_exint.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_sdio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_misc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usb.h)(0x6390A927)
+F (..\src\main.c)(0x64721E04)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../../../libraries/drivers/inc -I ../../../../../../libraries/cmsis/cm4/core_support -I ../../../../../../libraries/cmsis/cm4/device_support -I ../inc -I ../../../../../at32f415_board-IC:/Users/Lenovo/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="537" -DAT32F415RCT7_7 -DAT32F415RCT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F415_V1-o ./objects/main.o -MD)
+I (..\..\..\..\..\at32f415_board\at32f415_board.h)(0x643544C1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x625283FE)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528400)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x625283FE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x625283FE)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\system_at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_def.h)(0x6390A927)
+I (..\inc\at32f415_conf.h)(0x6390A941)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crm.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_cmp.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_tmr.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_ertc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_gpio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_i2c.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usart.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_pwc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_can.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_adc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_spi.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_dma.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_debug.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_flash.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wwdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_exint.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_sdio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_misc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usb.h)(0x6390A927)
+I (..\inc\at32f415_clock.h)(0x6390A941)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x625283FE)
+F (..\..\..\..\..\at32f415_board\at32f415_board.c)(0x64354491)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../../../libraries/drivers/inc -I ../../../../../../libraries/cmsis/cm4/core_support -I ../../../../../../libraries/cmsis/cm4/device_support -I ../inc -I ../../../../../at32f415_board-IC:/Users/Lenovo/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="537" -DAT32F415RCT7_7 -DAT32F415RCT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F415_V1-o ./objects/at32f415_board.o -MD)
+I (..\..\..\..\..\at32f415_board\at32f415_board.h)(0x643544C1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x625283FE)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528400)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x625283FE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x625283FE)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\system_at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_def.h)(0x6390A927)
+I (..\inc\at32f415_conf.h)(0x6390A941)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crm.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_cmp.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_tmr.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_ertc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_gpio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_i2c.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usart.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_pwc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_can.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_adc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_spi.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_dma.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_debug.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_flash.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wwdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_exint.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_sdio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_misc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usb.h)(0x6390A927)
+F (.\at32f415_int.h)(0x6390AC31)()
+F (..\..\..\..\..\..\libraries\drivers\src\at32f415_gpio.c)(0x6390A927)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../../../libraries/drivers/inc -I ../../../../../../libraries/cmsis/cm4/core_support -I ../../../../../../libraries/cmsis/cm4/device_support -I ../inc -I ../../../../../at32f415_board-IC:/Users/Lenovo/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="537" -DAT32F415RCT7_7 -DAT32F415RCT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F415_V1-o ./objects/at32f415_gpio.o -MD)
+I (..\inc\at32f415_conf.h)(0x6390A941)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crm.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528400)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x625283FE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x625283FE)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\system_at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_def.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_cmp.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_tmr.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_ertc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_gpio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_i2c.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usart.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_pwc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_can.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_adc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_spi.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_dma.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_debug.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_flash.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wwdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_exint.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_sdio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_misc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usb.h)(0x6390A927)
+F (..\..\..\..\..\..\libraries\drivers\src\at32f415_crm.c)(0x6390A927)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../../../libraries/drivers/inc -I ../../../../../../libraries/cmsis/cm4/core_support -I ../../../../../../libraries/cmsis/cm4/device_support -I ../inc -I ../../../../../at32f415_board-IC:/Users/Lenovo/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="537" -DAT32F415RCT7_7 -DAT32F415RCT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F415_V1-o ./objects/at32f415_crm.o -MD)
+I (..\inc\at32f415_conf.h)(0x6390A941)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crm.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528400)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x625283FE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x625283FE)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\system_at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_def.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_cmp.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_tmr.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_ertc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_gpio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_i2c.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usart.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_pwc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_can.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_adc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_spi.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_dma.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_debug.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_flash.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wwdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_exint.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_sdio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_misc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usb.h)(0x6390A927)
+F (..\..\..\..\..\..\libraries\drivers\src\at32f415_usart.c)(0x6390A927)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../../../libraries/drivers/inc -I ../../../../../../libraries/cmsis/cm4/core_support -I ../../../../../../libraries/cmsis/cm4/device_support -I ../inc -I ../../../../../at32f415_board-IC:/Users/Lenovo/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="537" -DAT32F415RCT7_7 -DAT32F415RCT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F415_V1-o ./objects/at32f415_usart.o -MD)
+I (..\inc\at32f415_conf.h)(0x6390A941)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crm.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528400)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x625283FE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x625283FE)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\system_at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_def.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_cmp.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_tmr.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_ertc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_gpio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_i2c.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usart.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_pwc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_can.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_adc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_spi.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_dma.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_debug.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_flash.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wwdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_exint.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_sdio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_misc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usb.h)(0x6390A927)
+F (..\..\..\..\..\..\libraries\drivers\src\at32f415_misc.c)(0x6390A927)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../../../libraries/drivers/inc -I ../../../../../../libraries/cmsis/cm4/core_support -I ../../../../../../libraries/cmsis/cm4/device_support -I ../inc -I ../../../../../at32f415_board-IC:/Users/Lenovo/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="537" -DAT32F415RCT7_7 -DAT32F415RCT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F415_V1-o ./objects/at32f415_misc.o -MD)
+I (..\inc\at32f415_conf.h)(0x6390A941)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crm.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528400)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x625283FE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x625283FE)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\system_at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_def.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_cmp.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_tmr.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_ertc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_gpio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_i2c.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usart.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_pwc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_can.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_adc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_spi.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_dma.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_debug.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_flash.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wwdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_exint.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_sdio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_misc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usb.h)(0x6390A927)
+F (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\system_at32f415.c)(0x6390A921)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../../../libraries/drivers/inc -I ../../../../../../libraries/cmsis/cm4/core_support -I ../../../../../../libraries/cmsis/cm4/device_support -I ../inc -I ../../../../../at32f415_board-IC:/Users/Lenovo/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-D__UVISION_VERSION="537" -DAT32F415RCT7_7 -DAT32F415RCT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F415_V1-o ./objects/system_at32f415.o -MD)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528400)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6390A921)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x625283FE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x625283FE)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\system_at32f415.h)(0x6390A921)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_def.h)(0x6390A927)
+I (..\inc\at32f415_conf.h)(0x6390A941)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crm.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_cmp.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_tmr.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_ertc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_gpio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_i2c.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usart.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_pwc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_can.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_adc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_spi.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_dma.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_debug.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_flash.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_crc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wwdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_wdt.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_exint.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_sdio.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_misc.h)(0x6390A927)
+I (..\..\..\..\..\..\libraries\drivers\inc\at32f415_usb.h)(0x6390A927)
+F (..\..\..\..\..\..\libraries\cmsis\cm4\device_support\startup\mdk\startup_at32f415.s)(0x6390A921)(--target=armv7em-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-IC:/Users/Lenovo/AppData/Local/Arm/Packs/ArteryTek/AT32F415_DFP/2.0.4/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"AT32F415RCT7_7 SETA 1"-o ./objects/startup_at32f415.o)
+F (..\readme.txt)(0x6390A941)()
